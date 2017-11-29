@@ -1,0 +1,180 @@
+"2017-11-29 14:49:37 [restartedMain] INFO  c.s.h.m.a.SpringHibernateMappingApplication - Starting SpringHibernateMappingApplication on BAHOTA-FQ0L5 with PID 16252 (C:\MyWorkSpace\spring-hibernate-mapping\target\classes started by bahota in C:\MyWorkSpace\spring-hibernate-mapping)
+""2017-11-29 14:49:37 [restartedMain] INFO  c.s.h.m.a.SpringHibernateMappingApplication - No active profile set, falling back to default profiles: default
+""2017-11-29 14:49:37 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@651c0aa5: startup date [Wed Nov 29 14:49:37 IST 2017]; root of context hierarchy
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9090 (http)
+""2017-11-29 14:49:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-11-29 14:49:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+""2017-11-29 14:49:38 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-11-29 14:49:38 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 551 ms
+""2017-11-29 14:49:38 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-11-29 14:49:38 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-11-29 14:49:38 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-11-29 14:49:38 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-11-29 14:49:38 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-11-29 14:49:38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-11-29 14:49:38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-11-29 14:49:38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-11-29 14:49:38 [restartedMain] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.o.h.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@42b02f19] of Hibernate SessionFactory for HibernateTransactionManager
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@651c0aa5: startup date [Wed Nov 29 14:49:37 IST 2017]; root of context hierarchy
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUserWithVeichle],methods=[GET]}" onto public java.util.List<java.lang.Object> com.spring.hbm.mapping.api.controller.UserController.getUserWithVeichle()
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUser_Join_all],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.spring.hbm.mapping.api.controller.UserController.getUserAllMappingInfo()
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUser_Join_Veichle],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.spring.hbm.mapping.api.controller.UserController.getUserVeichle()
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/saveUser],methods=[POST]}" onto public java.lang.String com.spring.hbm.mapping.api.controller.UserController.saveUser(com.spring.hbm.mapping.dto.UserRequest)
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUser_Join_Business],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.spring.hbm.mapping.api.controller.UserController.getUserBusiness()
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-11-29 14:49:38 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9090 (http)
+""2017-11-29 14:49:38 [restartedMain] INFO  c.s.h.m.a.SpringHibernateMappingApplication - Started SpringHibernateMappingApplication in 1.13 seconds (JVM running for 908.461)
+""2017-11-29 14:49:44 [http-nio-9090-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-11-29 14:49:44 [http-nio-9090-exec-10] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-11-29 14:49:44 [http-nio-9090-exec-10] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+""2017-11-29 14:49:44 [http-nio-9090-exec-10] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-11-29 14:49:44 [http-nio-9090-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        business1_.businessId as col_0_0_,
+        business1_.businessType as col_1_0_,
+        business1_.turnOver as col_2_0_,
+        veichle3_.veichleId as col_3_0_,
+        veichle3_.veichleName as col_4_0_,
+        veichle3_.color as col_5_0_,
+        address2_.zip as col_6_0_,
+        address2_.city as col_7_0_,
+        address2_.state as col_8_0_,
+        user0_.userid as col_9_0_,
+        user0_.name as col_10_0_ 
+    from
+        USER1_TB user0_ 
+    inner join
+        BUSINESS1_TB business1_ 
+            on user0_.userid=business1_.user_business_fk 
+    inner join
+        ADDRESS1_TB address2_ 
+            on user0_.user_address_fk=address2_.zip 
+    inner join
+        VEICHLE1_TB veichle3_ 
+            on user0_.user_veichle_fk=veichle3_.veichleId
+""2017-11-29 14:52:06 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        address_.zip,
+        address_.city as city2_0_,
+        address_.state as state3_0_ 
+    from
+        ADDRESS1_TB address_ 
+    where
+        address_.zip=?
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [560037]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        veichle_.veichleId,
+        veichle_.color as color2_3_,
+        veichle_.veichleName as veichleN3_3_ 
+    from
+        VEICHLE1_TB veichle_ 
+    where
+        veichle_.veichleId=?
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [998877]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        business_.businessId,
+        business_.businessType as business2_1_,
+        business_.turnOver as turnOver3_1_ 
+    from
+        BUSINESS1_TB business_ 
+    where
+        business_.businessId=?
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [555]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        business_.businessId,
+        business_.businessType as business2_1_,
+        business_.turnOver as turnOver3_1_ 
+    from
+        BUSINESS1_TB business_ 
+    where
+        business_.businessId=?
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [431]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        VEICHLE1_TB
+        (color, veichleName, veichleId) 
+    values
+        (?, ?, ?)
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Navy]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Royal Enfield]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [BIGINT] - [998877]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        USER1_TB
+        (user_address_fk, name, profession, user_veichle_fk, userid) 
+    values
+        (?, ?, ?, ?, ?)
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [560037]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [Santosh]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [SSE]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [BIGINT] - [998877]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [5]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        BUSINESS1_TB
+        (businessType, turnOver, businessId) 
+    values
+        (?, ?, ?)
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Travelers]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [500000]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [555]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        BUSINESS1_TB
+        (businessType, turnOver, businessId) 
+    values
+        (?, ?, ?)
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Gym]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [300000]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [431]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    update
+        BUSINESS1_TB 
+    set
+        user_business_fk=? 
+    where
+        businessId=?
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [5]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [INTEGER] - [555]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] DEBUG org.hibernate.SQL - 
+    update
+        BUSINESS1_TB 
+    set
+        user_business_fk=? 
+    where
+        businessId=?
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [5]
+""2017-11-29 14:52:07 [http-nio-9090-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [INTEGER] - [431]
+"
